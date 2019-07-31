@@ -52,8 +52,6 @@ def editMenuItem(restaurant_id, menu_id):
     else:
         return render_template('editmenuitem.html', restaurant_id=restaurant_id, editItem=editItem)
 
-    return "page to edit a menu item. Task 2 complete!"
-
 # Task 3: Create a route for deleteMenuItem function here
 
 @app.route('/restaurants/<int:restaurant_id>/<int:menu_id>/delete/')
