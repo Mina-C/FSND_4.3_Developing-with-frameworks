@@ -18,3 +18,5 @@ You need Python(ver.3), Linux-based virtual machine environment(Vagrant and Virt
   6. Open the browser and type the address: http://localhost:5000/.
   
 ## Program's Design
+You can view all the menu items in each restaurants from the Restaurant and MenuItem database.
+By URLs, you can reach to data and each functions in the application.
